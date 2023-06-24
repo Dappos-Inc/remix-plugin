@@ -1,0 +1,48 @@
+{
+  "name": "remix-plugin-dappos",
+  "version": "0.1.1",
+  "description": "Create dapp frontend interfaces for smart contracts with the Remix IDE.",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@remixproject/plugin": "^0.3.8",
+    "@remixproject/plugin-webview": "^0.3.8",
+    "axios": "^0.21.1",
+    "events": "^3.2.0",
+    "firebase": "^9.6.8",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.11.0",
+    "uuid": "^9.0.0",
+    "webpack-dotenv-plugin": "^2.1.0"
+  },
+  "devDependencies": {
+    "file-loader": "^4.3.0",
+    "jest": "^24.1.0",
+    "lit-element": "^2.4.0",
+    "surge": "^0.20.5",
+    "ts-jest": "^24.3.0",
+    "ts-loader": "^5.4.5",
+    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.9.9",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack --config webpack.prod.js",
+    "serve": "webpack-dev-server --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "smart contract",
+    "interface",
+    "abi",
+    "dapp",
+    "web3",
+    "dappos"
+  ],
+  "license": "MIT"
+}
